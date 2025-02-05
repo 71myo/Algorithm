@@ -5,7 +5,7 @@ func isValid(_ number: Int) -> Bool {
         
     for digit in digits {
            if digit != "0" && digit != "5" {
-            return false // 0 or 5가 아니면 false
+            return false // 0, 5가 아니면 false
         }
     }
     return true // 모든 자릿수가 0, 5면 true
