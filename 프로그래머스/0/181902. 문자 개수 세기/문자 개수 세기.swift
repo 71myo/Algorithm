@@ -5,9 +5,9 @@ func solution(_ my_string:String) -> [Int] {
 
     for ch in my_string {
         if ch.isUppercase {
-            counts[Int(ch.asciiValue! - 65)] += 1 // A의 SCHII 값 65 ~ Z:90
+            counts[Int(ch.asciiValue! - 65)] += 1 // A의 ASCHII 값 65 ~ Z:90
         } else if ch.isLowercase {
-            counts[Int(ch.asciiValue! - 97 + 26)] += 1 // a의 SCHII 값 97
+            counts[Int(ch.asciiValue! - 97 + 26)] += 1 // a의 ASCHII 값 97
         }
     }
     
